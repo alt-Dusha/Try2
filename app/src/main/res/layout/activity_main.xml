@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="410dp"
+    android:layout_height="730dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b1"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b2"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b3"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b4"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b5"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b6"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b7"
+            android:contentDescription="@string/app_name"
+            android:layout_width="58dp"
+            android:layout_height="400dp"
+            android:background="@drawable/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b8"
+            android:contentDescription="@string/app_name"
+            android:layout_width="48dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b9"
+            android:contentDescription="@string/app_name"
+            android:layout_width="48dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b10"
+            android:contentDescription="@string/app_name"
+            android:layout_width="48dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="72dp"
+            android:background="@drawable/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b11"
+            android:contentDescription="@string/app_name"
+            android:layout_width="48dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b12"
+            android:contentDescription="@string/app_name"
+            android:layout_width="48dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/black" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
